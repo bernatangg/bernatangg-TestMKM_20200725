@@ -1,8 +1,10 @@
-package com.bernatangg.testmkm;
+package com.bernatangg.testmkm.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.bernatangg.testmkm.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

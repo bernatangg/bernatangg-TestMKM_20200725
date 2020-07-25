@@ -1,4 +1,4 @@
-package com.bernatangg.testmkm;
+package com.bernatangg.testmkm.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -10,7 +10,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    private static final String BASE_URL = "https://site.popcenterpoldajatim.com/android_api/public/api/";
+    private static final String BASE_URL = "http://192.168.43.55/back-end/";
 
     private static Retrofit retrofit = null;
 
